@@ -1,9 +1,9 @@
 class PostsController < ApplicationController
-  def index
-    @posts = Post.all
-  end
+def index
+  @posts = Post.all
+end
 
-  def create
-    @posts = Post.create
-  end
+def new
+  @posts = Post.create
+end
 end
